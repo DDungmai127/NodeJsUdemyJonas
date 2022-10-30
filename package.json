@@ -1,0 +1,28 @@
+{
+    "name": "4-natours",
+    "version": "1.0.0",
+    "description": "Learning node/epress/mongodb",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "start:prod": "NODE_ENV=production nodemon server.js"
+    },
+    "author": "Jonas Schmedtmann copyright and Dungmai do",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.16.4",
+        "mongoose": "^6.7.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.26.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.31.10",
+        "prettier": "^2.7.1"
+    }
+}
